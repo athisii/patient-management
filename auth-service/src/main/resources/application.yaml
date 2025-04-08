@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5001/user_mgmt
+    username: athisii
+    password: athisii
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: false
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8083
+
+jwt:
+  secret: VGhpcyBpcyBteSB0b3Agc2VjcmV0IGtleS4gVGhpcyBzaG91bGQgbmV2ZXIgYmUgc2hhcmVkIHdpdGggb3RoZXJzLg==

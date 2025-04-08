@@ -1,0 +1,4 @@
+###
+GET  http://localhost:8443/api/patients
+Authorization: Bearer {{token}}
+###

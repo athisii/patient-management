@@ -1,0 +1,12 @@
+###
+POST http://localhost:8443/api/patients
+Content-Type: application/json
+
+{
+  "name": "test",
+  "email": "test1@email.com",
+  "phone": "8888888888",
+  "birthDate": "1994-06-15",
+  "address": "Senapati Town",
+  "registeredDate": "2025-04-04"
+}

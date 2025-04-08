@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: patient-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5000/patient_mgmt
+    username: athisii
+    password: athisii
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+    bootstrap-servers: localhost:9094
+
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+
+billing:
+  service:
+    address: localhost
+    grpc:
+      port: 9091

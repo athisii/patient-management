@@ -1,0 +1,11 @@
+###
+PUT http://localhost:8080/patients/1
+Content-Type: application/json
+
+{
+  "name": "test",
+  "email": "test@email.com",
+  "phone": "888888888",
+  "birthDate": "1994-10-23",
+  "address": "Makhan Khullen"
+}
