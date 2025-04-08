@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.athisii.AuthIntegrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-08T09:22:10.361Z" hostname="ekhe" time="1.52">
+  <properties/>
+  <testcase name="shouldReturnOkWithValidToken()" classname="com.athisii.AuthIntegrationTest" time="1.484"/>
+  <testcase name="shouldReturnUnauthorizedOnInvalidLogin()" classname="com.athisii.AuthIntegrationTest" time="0.034"/>
+  <system-out><![CDATA[Generated token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0QGVtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc0NDEwNDEzMSwiZXhwIjoxNzQ0MTQwMTMxfQ.fIKiwncqcAtELsxU3eEmwCLaRQBhZgzixsoZ5R_5Em6qH_FKrGjzn_w6tYLCHFlFyR2WMKr1Urzrz_T40fhGhg
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

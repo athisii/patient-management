@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.athisii.PatientIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-08T09:22:11.887Z" hostname="ekhe" time="0.361">
+  <properties/>
+  <testcase name="shouldReturnPatientsWithValidToken()" classname="com.athisii.PatientIntegrationTest" time="0.361"/>
+  <system-out><![CDATA[Patients: [{id=1, name=kapesa, email=kapesa@email.com, phone=8974328198, dateOfBirth=1997-07-10, address=Chowainu}, {id=2, name=mercy, email=mercy@email.com, phone=9768123465, dateOfBirth=1980-02-11, address=Makhan Centre}, {id=3, name=athisii, email=athisii@email.com, phone=8132789647, dateOfBirth=1976-01-08, address=Makhan Khullen}, {id=4, name=ekhe, email=ekhe@email.com, phone=9436819704, dateOfBirth=1994-06-15, address=Makhan Khullen}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
